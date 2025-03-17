@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"ead49cc4b3ab3939","x":-450,"y":120,"width":250,"height":80,"type":"text","text":"`Interface`\nКакое то Молоко"},
+		{"id":"093261d4c622770c","x":-200,"y":120,"width":250,"height":80,"type":"text","text":"`Interface`\nКакое то Кофе"},
+		{"id":"bfe0d1451e8ba3b7","x":50,"y":120,"width":250,"height":80,"type":"text","text":"`Interface`\nКакой то сахар"},
+		{"id":"9dd3e5b731c44e8e","x":300,"y":120,"width":250,"height":80,"type":"text","text":"`Interface`\nКакое то какао"},
+		{"id":"e544440b910afc6e","x":-360,"y":-205,"width":250,"height":60,"type":"text","text":"Варка Какао\n"},
+		{"id":"c3e3051283cd7cc6","x":240,"y":-205,"width":250,"height":60,"type":"text","text":"Варка коффе"},
+		{"id":"a27e0993627f7f25","x":-12,"y":-420,"width":125,"height":60,"type":"text","text":"Бариста"},
+		{"id":"dbb8fe989f2e6b45","x":-235,"y":320,"width":250,"height":60,"type":"text","text":"Кофе Арабика"},
+		{"id":"006c8d54e78469f0","x":340,"y":320,"width":250,"height":60,"type":"text","text":"Какое Несквик"},
+		{"id":"b0ebce3c40db79d4","x":90,"y":320,"width":250,"height":60,"type":"text","text":"Сахар белый"},
+		{"id":"c76f5aff80a627d4","x":-485,"y":320,"width":250,"height":60,"type":"text","text":"Молоко 5%"},
+		{"id":"f45c982fdad24b12","x":-735,"y":120,"width":250,"height":80,"type":"text","text":"`Interface`\nТопленое молоко"}
+	],
+	"edges":[
+		{"id":"1681370aa2026e90","fromNode":"c3e3051283cd7cc6","fromSide":"bottom","toNode":"093261d4c622770c","toSide":"top"},
+		{"id":"74b2920c1d214e9e","fromNode":"c3e3051283cd7cc6","fromSide":"bottom","toNode":"ead49cc4b3ab3939","toSide":"top"},
+		{"id":"7018429b79506238","fromNode":"c3e3051283cd7cc6","fromSide":"bottom","toNode":"bfe0d1451e8ba3b7","toSide":"top"},
+		{"id":"7cff44415f754578","fromNode":"e544440b910afc6e","fromSide":"bottom","toNode":"bfe0d1451e8ba3b7","toSide":"top"},
+		{"id":"373776c1b9aeccd3","fromNode":"e544440b910afc6e","fromSide":"bottom","toNode":"ead49cc4b3ab3939","toSide":"top"},
+		{"id":"2e5393056d50e299","fromNode":"a27e0993627f7f25","fromSide":"bottom","toNode":"c3e3051283cd7cc6","toSide":"top"},
+		{"id":"a1267349805c2a37","fromNode":"c3e3051283cd7cc6","fromSide":"top","toNode":"a27e0993627f7f25","toSide":"bottom"},
+		{"id":"12ab787e508f0882","fromNode":"e544440b910afc6e","fromSide":"bottom","toNode":"9dd3e5b731c44e8e","toSide":"top"},
+		{"id":"1bab801ef8cec739","fromNode":"e544440b910afc6e","fromSide":"top","toNode":"a27e0993627f7f25","toSide":"bottom"},
+		{"id":"d3415b23f51cc97d","fromNode":"a27e0993627f7f25","fromSide":"bottom","toNode":"e544440b910afc6e","toSide":"top"},
+		{"id":"cea8be531da0ceeb","fromNode":"c76f5aff80a627d4","fromSide":"top","toNode":"ead49cc4b3ab3939","toSide":"bottom"},
+		{"id":"3c89e50c1a77db27","fromNode":"dbb8fe989f2e6b45","fromSide":"top","toNode":"093261d4c622770c","toSide":"bottom"},
+		{"id":"8217ebd5b9b7eb4b","fromNode":"b0ebce3c40db79d4","fromSide":"top","toNode":"bfe0d1451e8ba3b7","toSide":"bottom"},
+		{"id":"a22454dcd379e985","fromNode":"006c8d54e78469f0","fromSide":"top","toNode":"9dd3e5b731c44e8e","toSide":"bottom"},
+		{"id":"bdc7569e584ec6fb","fromNode":"ead49cc4b3ab3939","fromSide":"left","toNode":"f45c982fdad24b12","toSide":"right"},
+		{"id":"7ba77aa7e8c98735","fromNode":"c76f5aff80a627d4","fromSide":"top","toNode":"f45c982fdad24b12","toSide":"bottom"}
+	]
+}
